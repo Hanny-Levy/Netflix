@@ -18,11 +18,11 @@ public class Date {
         try {
             if (day<=31&&day>0)
                 this.day = day;
-            else{
-                System.out.println("Invalid day!");
-                int userDay=scanner.nextInt();
-                setDay(userDay);
-            }
+         //  else{
+           //     System.out.println("Invalid day!");
+           //     int userDay=scanner.nextInt();
+           ///     setDay(userDay);
+           // }
         }catch (InputMismatchException e){
             System.out.println("Write a number !");
             int userDay=scanner.nextInt();
@@ -36,11 +36,11 @@ public class Date {
         try {
             if (month>0&&month<=12)
                 this.month = month;
-            else{
-                System.out.println("Invalid month!");
-                int userMonth=scanner.nextInt();
-                setMonth(userMonth);
-            }
+            ///else{
+           ///     System.out.println("Invalid month!");
+           ///     int userMonth=scanner.nextInt();
+           ///     setMonth(userMonth);
+           /// }
         }catch (InputMismatchException e){
             System.out.println("Write a number !");
             int userMonth=scanner.nextInt();
